@@ -102,6 +102,7 @@ h1{
 }
 button{
     
+
     border: none;
     border-radius: 16px;
     justify-content: center;
@@ -530,8 +531,17 @@ span{
         font-size: 1.125rem;   
         letter-spacing: -0.5px;       
         width: 200px;
+        
 }
+.contact-btn1:hover{
+    box-shadow: inset 400px 0 0 0 rgb(129, 73, 168); 
+    opacity: 80%;
+   
+}
+
+
 .contact-btn2{
+
     width: 200px;
     border: 1px solid rgb(129, 73, 168);
     border-radius: 16px;
@@ -540,6 +550,11 @@ span{
     cursor: pointer;
     height: 3.375rem;
 
+}
+.contact-btn2:hover{
+    box-shadow: inset 400px 0 0 0 rgb(255, 255, 255); 
+    opacity: 70%;
+    
 }
 /* ----------------------------------------------------------- */
 .container5-heading{
